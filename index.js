@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 
 const originPath = "/tmp/aa.txt";
-const destinationPath = "/srv/sorba_devices/carbon.super/6c8da630-b2c4-11ed-b7ca-795edfaf7fd0/files/sql.sql";
+const destinationPath = "/srv/aa.txt";
 
 fs.copy(originPath, destinationPath, { overwrite: true })
     .then(() => console.log('success!'))
