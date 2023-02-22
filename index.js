@@ -1,8 +1,8 @@
 const fs = require('fs-extra');
 const fsNative = require('fs');
 
-const originPath = "/tmp/aa.txt";
-const destinationPath = "/srv/aa.txt";
+const originPath = "/srv/sorba_devices/carbon.super/d0c2e200-b21a-11ed-8ef6-3b7647862b6f/files/sql.sql";
+const destinationPath = "/tmp/sql.sql";
 
 try {
     fsNative.copyFileSync(originPath, destinationPath, fsNative.constants.COPYFILE_EXCL);
