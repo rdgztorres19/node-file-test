@@ -1,0 +1,22 @@
+{
+  "name": "file-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdgztorres19/node-file-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdgztorres19/node-file-test/issues"
+  },
+  "homepage": "https://github.com/rdgztorres19/node-file-test#readme",
+  "dependencies": {
+    "fs-extra": "^11.1.0"
+  }
+}
